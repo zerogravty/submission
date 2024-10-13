@@ -18,7 +18,7 @@ def prepare_state_order_count_dataframe(all_df):
     return statecount_df
 
 # Load data dari file CSV
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 
 datetime_columns = ["order_delivered_customer_date_only", "order_estimated_delivery_date_only"]
 all_df.sort_values(by="order_delivered_customer_date_only", inplace=True)
