@@ -1,1 +1,1 @@
-http://ghitasubmission1.streamlit.app/
+https://ghitasubmission1.streamlit.app/
